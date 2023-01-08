@@ -6,7 +6,10 @@ public class FirmaPrincipal {
 		
 		EstudianteFirma estudiante = new EstudianteFirma("Juan");
 		
-		System.out.println(estudiante.notaMedia(7, 5, true));
+		if (estudiante.notaMedia(7, 5, true) > 5)
+			System.out.println("APROBADO");
+		else
+			System.out.println("SUSPENSO");
 
 	}
 
